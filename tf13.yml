@@ -2,13 +2,14 @@ name: tf13
 channels:
   - defaults
 dependencies:
+  - _libgcc_mutex=0.1=main
   - _tflow_select=2.1.0=gpu
   - absl-py=0.7.1=py37_0
   - astor=0.7.1=py37_0
   - blas=1.0=mkl
   - c-ares=1.15.0=h7b6447c_1
-  - ca-certificates=2019.5.15=0
-  - certifi=2019.3.9=py37_0
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py37_0
   - cudatoolkit=10.0.130=0
   - cudnn=7.3.1=cuda10.0_0
   - cupti=10.0.130=0
@@ -17,7 +18,9 @@ dependencies:
   - h5py=2.9.0=py37h7918eee_0
   - hdf5=1.10.4=hb1b8bf9_0
   - intel-openmp=2019.3=199
+  - keras=2.3.1=0
   - keras-applications=1.0.7=py_0
+  - keras-base=2.3.1=py37_0
   - keras-preprocessing=1.0.9=py_0
   - libedit=3.1.20181209=hc058e9b_0
   - libffi=3.2.1=hd88cf55_4
@@ -33,13 +36,14 @@ dependencies:
   - ncurses=6.1=he6710b0_1
   - numpy=1.16.3=py37h7e9f1db_0
   - numpy-base=1.16.3=py37hde5b4d6_0
-  - openssl=1.1.1c=h7b6447c_1
+  - openssl=1.1.1g=h7b6447c_0
   - pandas=0.24.2=py37he6710b0_0
   - pip=19.1.1=py37_0
   - protobuf=3.7.1=py37he6710b0_0
   - python=3.7.3=h0371630_0
   - python-dateutil=2.8.0=py37_0
   - pytz=2019.1=py_0
+  - pyyaml=5.3.1=py37h7b6447c_1
   - readline=7.0=h7b6447c_5
   - scipy=1.2.1=py37h7c811a0_0
   - setuptools=41.0.1=py37_0
@@ -55,6 +59,7 @@ dependencies:
   - werkzeug=0.15.2=py_0
   - wheel=0.33.4=py37_0
   - xz=5.2.4=h14c3975_4
+  - yaml=0.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
   - pip:
     - cycler==0.10.0
@@ -69,4 +74,3 @@ dependencies:
     - pywavelets==1.0.3
     - scikit-image==0.15.0
 prefix: /home/chu/anaconda3/envs/tf13
-
